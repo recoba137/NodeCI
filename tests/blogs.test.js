@@ -66,11 +66,11 @@ describe('When logged in', async () => {
 describe('User is not logged in', async () => {
     const actions = [
         {
-            method: 'GET',
+            method: 'get',
             path: '/api/blogs'
         },
         {
-            method: 'POST',
+            method: 'post',
             path: '/api/blogs',
             data: {
                 title: 'My Title',
